@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="4" ignored="0" total="27" passed="23">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Testing Petstore" duration-ms="1216547" started-at="2020-04-13T01:06:29Z" finished-at="2020-04-13T01:26:46Z">
+    <groups>
+    </groups>
+    <test name="Chrome Test" duration-ms="445463" started-at="2020-04-13T01:06:29Z" finished-at="2020-04-13T01:13:55Z">
+      <class name="tests.PetStoreMenuTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:tests.PetStoreMenuTest@91161c7]" name="setup" is-config="true" duration-ms="8745" started-at="2020-04-13T01:07:26Z" finished-at="2020-04-13T01:07:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="LinkTests()[pri:0, instance:tests.PetStoreMenuTest@91161c7]" name="LinkTests" duration-ms="10560" started-at="2020-04-13T01:07:34Z" finished-at="2020-04-13T01:07:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LinkTests -->
+        <test-method status="PASS" signature="LinksTest()[pri:0, instance:tests.PetStoreMenuTest@91161c7]" name="LinksTest" duration-ms="2393" started-at="2020-04-13T01:07:45Z" finished-at="2020-04-13T01:07:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LinksTest -->
+        <test-method status="PASS" signature="SignInTest()[pri:0, instance:tests.PetStoreMenuTest@91161c7]" name="SignInTest" duration-ms="805" started-at="2020-04-13T01:07:47Z" finished-at="2020-04-13T01:07:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignInTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.PetStoreMenuTest@91161c7]" name="afterClass" is-config="true" duration-ms="221" started-at="2020-04-13T01:07:48Z" finished-at="2020-04-13T01:07:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tests.PetStoreMenuTest -->
+      <class name="tests.HomePageTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:tests.HomePageTest@5c3bd550]" name="setup" is-config="true" duration-ms="51613" started-at="2020-04-13T01:06:29Z" finished-at="2020-04-13T01:07:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="enterTest()[pri:0, instance:tests.HomePageTest@5c3bd550]" name="enterTest" duration-ms="4108" started-at="2020-04-13T01:07:21Z" finished-at="2020-04-13T01:07:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.HomePageTest@5c3bd550]" name="afterClass" is-config="true" duration-ms="545" started-at="2020-04-13T01:07:25Z" finished-at="2020-04-13T01:07:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tests.HomePageTest -->
+      <class name="tests.CartTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:tests.CartTest@685cb137]" name="setup" is-config="true" duration-ms="5101" started-at="2020-04-13T01:13:33Z" finished-at="2020-04-13T01:13:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="addToCartTest()[pri:0, instance:tests.CartTest@685cb137]" name="addToCartTest" duration-ms="8305" started-at="2020-04-13T01:13:38Z" finished-at="2020-04-13T01:13:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartTest -->
+        <test-method status="PASS" signature="countCartTest()[pri:0, instance:tests.CartTest@685cb137]" name="countCartTest" duration-ms="2857" started-at="2020-04-13T01:13:46Z" finished-at="2020-04-13T01:13:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countCartTest -->
+        <test-method status="PASS" signature="emptyCartTest()[pri:0, instance:tests.CartTest@685cb137]" name="emptyCartTest" duration-ms="5281" started-at="2020-04-13T01:13:49Z" finished-at="2020-04-13T01:13:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyCartTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.CartTest@685cb137]" name="afterClass" is-config="true" duration-ms="144" started-at="2020-04-13T01:13:55Z" finished-at="2020-04-13T01:13:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tests.CartTest -->
+      <class name="tests.RegistrationPageTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:tests.RegistrationPageTest@604ed9f0]" name="setup" is-config="true" duration-ms="7848" started-at="2020-04-13T01:07:48Z" finished-at="2020-04-13T01:07:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="RegistrationTest()[pri:0, instance:tests.RegistrationPageTest@604ed9f0]" name="RegistrationTest" duration-ms="246601" started-at="2020-04-13T01:07:56Z" finished-at="2020-04-13T01:12:03Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [false] but found [true],
+expected [false] but found [true],
+expected [false] but found [true],
+expected [false] but found [true],
+expected [false] but found [true],
+expected [false] but found [true],
+expected [false] but found [true],
+expected [false] but found [true],
+expected [false] but found [true],
+expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [false] but found [true],
+expected [false] but found [true],
+expected [false] but found [true],
+expected [false] but found [true],
+expected [false] but found [true],
+expected [false] but found [true],
+expected [false] but found [true],
+expected [false] but found [true],
+expected [false] but found [true],
+expected [false] but found [true]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at tests.RegistrationPageTest.RegistrationTest(RegistrationPageTest.java:74)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistrationTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.RegistrationPageTest@604ed9f0]" name="afterClass" is-config="true" duration-ms="176" started-at="2020-04-13T01:12:03Z" finished-at="2020-04-13T01:12:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tests.RegistrationPageTest -->
+      <class name="tests.SignInTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:tests.SignInTest@6a4f787b]" name="setup" is-config="true" duration-ms="5058" started-at="2020-04-13T01:12:03Z" finished-at="2020-04-13T01:12:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="SignInTests()[pri:0, instance:tests.SignInTest@6a4f787b]" name="SignInTests" duration-ms="84646" started-at="2020-04-13T01:12:08Z" finished-at="2020-04-13T01:13:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignInTests -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.SignInTest@6a4f787b]" name="afterClass" is-config="true" duration-ms="358" started-at="2020-04-13T01:13:33Z" finished-at="2020-04-13T01:13:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tests.SignInTest -->
+    </test> <!-- Chrome Test -->
+    <test name="FirefoxTest" duration-ms="356471" started-at="2020-04-13T01:13:55Z" finished-at="2020-04-13T01:19:51Z">
+      <class name="tests.PetStoreMenuTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:tests.PetStoreMenuTest@59ec2012]" name="setup" is-config="true" duration-ms="13694" started-at="2020-04-13T01:14:27Z" finished-at="2020-04-13T01:14:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="LinkTests()[pri:0, instance:tests.PetStoreMenuTest@59ec2012]" name="LinkTests" duration-ms="7542" started-at="2020-04-13T01:14:41Z" finished-at="2020-04-13T01:14:48Z">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[Element <area href="Catalog.action?viewCategory=&categoryId=BIRDS"> could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'MARKO-PC', ip: '192.168.1.16', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 75.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200403170909, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 8900, moz:profile: C:\Users\Marko\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.1, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c012e14b-fb3c-45b4-8400-d6c734bfdd95]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: Element <area href="Catalog.action?viewCategory=&categoryId=BIRDS"> could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'MARKO-PC', ip: '192.168.1.16', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 75.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200403170909, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 8900, moz:profile: C:\Users\Marko\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.1, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c012e14b-fb3c-45b4-8400-d6c734bfdd95
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at tests.PetStoreMenuTest.LinkTests(PetStoreMenuTest.java:93)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LinkTests -->
+        <test-method status="PASS" signature="LinksTest()[pri:0, instance:tests.PetStoreMenuTest@59ec2012]" name="LinksTest" duration-ms="2950" started-at="2020-04-13T01:14:48Z" finished-at="2020-04-13T01:14:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LinksTest -->
+        <test-method status="PASS" signature="SignInTest()[pri:0, instance:tests.PetStoreMenuTest@59ec2012]" name="SignInTest" duration-ms="730" started-at="2020-04-13T01:14:51Z" finished-at="2020-04-13T01:14:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignInTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.PetStoreMenuTest@59ec2012]" name="afterClass" is-config="true" duration-ms="4511" started-at="2020-04-13T01:14:52Z" finished-at="2020-04-13T01:14:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tests.PetStoreMenuTest -->
+      <class name="tests.HomePageTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:tests.HomePageTest@402a079c]" name="setup" is-config="true" duration-ms="22729" started-at="2020-04-13T01:13:55Z" finished-at="2020-04-13T01:14:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="enterTest()[pri:0, instance:tests.HomePageTest@402a079c]" name="enterTest" duration-ms="2971" started-at="2020-04-13T01:14:18Z" finished-at="2020-04-13T01:14:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.HomePageTest@402a079c]" name="afterClass" is-config="true" duration-ms="6321" started-at="2020-04-13T01:14:21Z" finished-at="2020-04-13T01:14:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tests.HomePageTest -->
+      <class name="tests.CartTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:tests.CartTest@3fee9989]" name="setup" is-config="true" duration-ms="10695" started-at="2020-04-13T01:19:21Z" finished-at="2020-04-13T01:19:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="addToCartTest()[pri:0, instance:tests.CartTest@3fee9989]" name="addToCartTest" duration-ms="8762" started-at="2020-04-13T01:19:31Z" finished-at="2020-04-13T01:19:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartTest -->
+        <test-method status="PASS" signature="countCartTest()[pri:0, instance:tests.CartTest@3fee9989]" name="countCartTest" duration-ms="1742" started-at="2020-04-13T01:19:40Z" finished-at="2020-04-13T01:19:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countCartTest -->
+        <test-method status="PASS" signature="emptyCartTest()[pri:0, instance:tests.CartTest@3fee9989]" name="emptyCartTest" duration-ms="5132" started-at="2020-04-13T01:19:42Z" finished-at="2020-04-13T01:19:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyCartTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.CartTest@3fee9989]" name="afterClass" is-config="true" duration-ms="4416" started-at="2020-04-13T01:19:47Z" finished-at="2020-04-13T01:19:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tests.CartTest -->
+      <class name="tests.RegistrationPageTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:tests.RegistrationPageTest@4cf777e8]" name="setup" is-config="true" duration-ms="9033" started-at="2020-04-13T01:14:56Z" finished-at="2020-04-13T01:15:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="RegistrationTest()[pri:0, instance:tests.RegistrationPageTest@4cf777e8]" name="RegistrationTest" duration-ms="167988" started-at="2020-04-13T01:15:05Z" finished-at="2020-04-13T01:17:53Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [false] but found [true],
+expected [false] but found [true],
+expected [false] but found [true],
+expected [false] but found [true],
+expected [false] but found [true],
+expected [false] but found [true],
+expected [false] but found [true],
+expected [false] but found [true],
+expected [false] but found [true],
+expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [false] but found [true],
+expected [false] but found [true],
+expected [false] but found [true],
+expected [false] but found [true],
+expected [false] but found [true],
+expected [false] but found [true],
+expected [false] but found [true],
+expected [false] but found [true],
+expected [false] but found [true],
+expected [false] but found [true]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at tests.RegistrationPageTest.RegistrationTest(RegistrationPageTest.java:74)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistrationTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.RegistrationPageTest@4cf777e8]" name="afterClass" is-config="true" duration-ms="2363" started-at="2020-04-13T01:17:53Z" finished-at="2020-04-13T01:17:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tests.RegistrationPageTest -->
+      <class name="tests.SignInTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:tests.SignInTest@2f686d1f]" name="setup" is-config="true" duration-ms="10620" started-at="2020-04-13T01:17:56Z" finished-at="2020-04-13T01:18:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="SignInTests()[pri:0, instance:tests.SignInTest@2f686d1f]" name="SignInTests" duration-ms="71588" started-at="2020-04-13T01:18:06Z" finished-at="2020-04-13T01:19:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignInTests -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.SignInTest@2f686d1f]" name="afterClass" is-config="true" duration-ms="2644" started-at="2020-04-13T01:19:18Z" finished-at="2020-04-13T01:19:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tests.SignInTest -->
+    </test> <!-- FirefoxTest -->
+    <test name="EdgeTest" duration-ms="414461" started-at="2020-04-13T01:19:51Z" finished-at="2020-04-13T01:26:46Z">
+      <class name="tests.PetStoreMenuTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:tests.PetStoreMenuTest@5f2108b5]" name="setup" is-config="true" duration-ms="6251" started-at="2020-04-13T01:20:15Z" finished-at="2020-04-13T01:20:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="LinkTests()[pri:0, instance:tests.PetStoreMenuTest@5f2108b5]" name="LinkTests" duration-ms="10270" started-at="2020-04-13T01:20:21Z" finished-at="2020-04-13T01:20:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LinkTests -->
+        <test-method status="PASS" signature="LinksTest()[pri:0, instance:tests.PetStoreMenuTest@5f2108b5]" name="LinksTest" duration-ms="1186" started-at="2020-04-13T01:20:31Z" finished-at="2020-04-13T01:20:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LinksTest -->
+        <test-method status="PASS" signature="SignInTest()[pri:0, instance:tests.PetStoreMenuTest@5f2108b5]" name="SignInTest" duration-ms="513" started-at="2020-04-13T01:20:32Z" finished-at="2020-04-13T01:20:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignInTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.PetStoreMenuTest@5f2108b5]" name="afterClass" is-config="true" duration-ms="213" started-at="2020-04-13T01:20:33Z" finished-at="2020-04-13T01:20:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tests.PetStoreMenuTest -->
+      <class name="tests.HomePageTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:tests.HomePageTest@e45f292]" name="setup" is-config="true" duration-ms="14899" started-at="2020-04-13T01:19:51Z" finished-at="2020-04-13T01:20:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="enterTest()[pri:0, instance:tests.HomePageTest@e45f292]" name="enterTest" duration-ms="8193" started-at="2020-04-13T01:20:06Z" finished-at="2020-04-13T01:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.HomePageTest@e45f292]" name="afterClass" is-config="true" duration-ms="137" started-at="2020-04-13T01:20:14Z" finished-at="2020-04-13T01:20:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tests.HomePageTest -->
+      <class name="tests.CartTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:tests.CartTest@1e397ed7]" name="setup" is-config="true" duration-ms="8494" started-at="2020-04-13T01:26:22Z" finished-at="2020-04-13T01:26:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="addToCartTest()[pri:0, instance:tests.CartTest@1e397ed7]" name="addToCartTest" duration-ms="7691" started-at="2020-04-13T01:26:30Z" finished-at="2020-04-13T01:26:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartTest -->
+        <test-method status="PASS" signature="countCartTest()[pri:0, instance:tests.CartTest@1e397ed7]" name="countCartTest" duration-ms="2802" started-at="2020-04-13T01:26:38Z" finished-at="2020-04-13T01:26:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countCartTest -->
+        <test-method status="PASS" signature="emptyCartTest()[pri:0, instance:tests.CartTest@1e397ed7]" name="emptyCartTest" duration-ms="5082" started-at="2020-04-13T01:26:41Z" finished-at="2020-04-13T01:26:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyCartTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.CartTest@1e397ed7]" name="afterClass" is-config="true" duration-ms="143" started-at="2020-04-13T01:26:46Z" finished-at="2020-04-13T01:26:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tests.CartTest -->
+      <class name="tests.RegistrationPageTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:tests.RegistrationPageTest@31a5c39e]" name="setup" is-config="true" duration-ms="4436" started-at="2020-04-13T01:20:33Z" finished-at="2020-04-13T01:20:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="RegistrationTest()[pri:0, instance:tests.RegistrationPageTest@31a5c39e]" name="RegistrationTest" duration-ms="242978" started-at="2020-04-13T01:20:37Z" finished-at="2020-04-13T01:24:40Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [false] but found [true],
+expected [false] but found [true],
+expected [false] but found [true],
+expected [false] but found [true],
+expected [false] but found [true],
+expected [false] but found [true],
+expected [false] but found [true],
+expected [false] but found [true],
+expected [false] but found [true],
+expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [false] but found [true],
+expected [false] but found [true],
+expected [false] but found [true],
+expected [false] but found [true],
+expected [false] but found [true],
+expected [false] but found [true],
+expected [false] but found [true],
+expected [false] but found [true],
+expected [false] but found [true],
+expected [false] but found [true]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at tests.RegistrationPageTest.RegistrationTest(RegistrationPageTest.java:74)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistrationTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.RegistrationPageTest@31a5c39e]" name="afterClass" is-config="true" duration-ms="136" started-at="2020-04-13T01:24:40Z" finished-at="2020-04-13T01:24:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tests.RegistrationPageTest -->
+      <class name="tests.SignInTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:tests.SignInTest@3f49dace]" name="setup" is-config="true" duration-ms="4966" started-at="2020-04-13T01:24:41Z" finished-at="2020-04-13T01:24:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="SignInTests()[pri:0, instance:tests.SignInTest@3f49dace]" name="SignInTests" duration-ms="95895" started-at="2020-04-13T01:24:46Z" finished-at="2020-04-13T01:26:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignInTests -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.SignInTest@3f49dace]" name="afterClass" is-config="true" duration-ms="157" started-at="2020-04-13T01:26:21Z" finished-at="2020-04-13T01:26:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tests.SignInTest -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- Testing Petstore -->
+</testng-results>
